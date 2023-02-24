@@ -1,0 +1,234 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Charlie-display';
+
+}
+
+/* body {
+
+    background-color: #F0F5FF !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100vh !important;
+    display: flex !important;
+
+
+} */
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.login-bg {
+    width: 100%;
+    background-color: #0052CC;
+}
+
+.login-card {
+    width: 100%;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.login-head {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 35px;
+    color: white;
+}
+
+.login-sub {
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+}
+
+.card-head {
+    font-weight: bold;
+    font-size: 38px;
+    color: #253858;
+}
+
+.card-sub,
+.label-text {
+    font-size: 18px;
+    color: #42526E;
+}
+
+input {
+    font-size: 16px !important;
+    border: 1px solid #E8F2FD !important;
+    padding-left: 40px !important;
+    box-shadow: none !important;
+    height: 50px;
+    border-radius: 0 !important;
+    color: #535570 !important;
+}
+
+.user,
+.lock {
+    position: absolute;
+    bottom: 15px;
+    left: 11px;
+}
+
+.login-link {
+    font-weight: 600;
+    font-size: 16px;
+    color: #253858 !important;
+    text-decoration: none;
+}
+
+.login-btn {
+    border: 1px solid #0052CC !important;
+    font-size: 18px !important;
+    color: #0052CC !important;
+    margin-right: 15px;
+}
+
+.footer {
+    font-size: 18px;
+    color: #42526E;
+    margin-top: 6%;
+}
+
+@media (max-width: 1366px) {
+
+    .login-head {
+        font-size: 40px;
+    }
+
+    .login-sub {
+        font-size: 24px;
+    }
+
+    .card-head {
+        font-size: 34px;
+    }
+
+    .card-sub,
+    .label-text {
+        font-size: 16px;
+    }
+
+    .login-link {
+        font-size: 14px;
+    }
+
+    .login-btn {
+        font-size: 16px !important;
+    }
+
+    .footer {
+        font-size: 16px;
+        margin-top: 35px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    body {
+        display: block !important;
+    }
+
+    .login-head {
+        font-size: 36px;
+    }
+
+    .login-sub {
+        font-size: 22px;
+    }
+
+    .card-head {
+        font-size: 30px;
+    }
+
+    .card-sub,
+    .label-text {
+        font-size: 14px;
+    }
+
+    input {
+        font-size: 14px !important;
+    }
+
+    .login-btn {
+        font-size: 14px !important;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .login-head {
+        font-size: 32px;
+    }
+
+    .login-sub {
+        font-size: 20px;
+    }
+
+    .card-head {
+        font-size: 26px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .login-head {
+        font-size: 28px;
+    }
+
+    .login-sub {
+        font-size: 18px;
+    }
+
+    .card-head {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .login-head {
+        font-size: 26px;
+    }
+
+    .login-sub {
+        font-size: 16px;
+    }
+
+    .card-head {
+        font-size: 22px;
+    }
+
+    .card-sub,
+    .label-text {
+        font-size: 12px;
+    }
+
+    .login-btn {
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .login-head {
+        font-size: 24px;
+    }
+
+    .card-head {
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,164 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Charlie-display';
+
+}
+
+li {
+    list-style-type: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+.header {
+    background: #FFFFFF;
+    box-shadow: 0px 16px 64px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/* li {
+    display: inline;
+} */
+
+.menu-toggle {
+    border: 1px solid #0068B4;
+    border-radius: 5px;
+}
+
+.menu-toggle:hover {
+    border: 1px solid #0052CC !important;
+    background-color: #0052CC !important;
+    color: #FFFFFF !important;
+}
+
+
+.menu-toggle:hover .menu-text-1 {
+
+    color: #FFFFFF !important;
+}
+
+/*  */
+
+.menu-toggle-1 {
+    border: 1px solid #0068B4;
+    border-radius: 5px;
+}
+
+.menu-toggle-1:hover {
+    border: 1px solid #0052CC !important;
+    background-color: #0052CC !important;
+    color: #FFFFFF !important;
+}
+
+
+.menu-toggle-1:hover .menu-text-1 {
+
+    color: #FFFFFF !important;
+}
+
+
+/*  */
+
+.menu-toggle-2 {
+    border: 1px solid #0068B4;
+    border-radius: 5px;
+}
+
+.menu-toggle-2:hover {
+    border: 1px solid #0052CC !important;
+    background-color: #0052CC !important;
+    color: #FFFFFF !important;
+}
+
+
+.menu-toggle-2:hover .menu-text-1 {
+
+    color: #FFFFFF !important;
+}
+
+
+
+.menu-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #253858 !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 12px;
+}
+
+.menu-text-1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0068B4 !important;
+}
+
+.profile-name {
+    font-size: 20px;
+    font-weight: 900;
+    color: #253858 !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.profile-role {
+    font-size: 16px;
+    font-weight: 600;
+    color: #253858 !important;
+}
+
+
+.body-header {
+    font-size: 26px;
+    font-weight: 700;
+    color: #253858 !important;
+    text-align: center;
+}
+
+
+
+@media (max-width:1366px) {
+
+    .menu-text,
+    .profile-name,
+    .profile-role,
+    .card-text {
+        font-size: 14px;
+    }
+
+    .body-header {
+        font-size: 22px;
+    }
+
+    .footer {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width:1200px) {
+
+    .menu {
+        display: none !important;
+
+    }
+
+    .profile {
+        display: none !important;
+
+    }
+}
+
+@media (max-width:992px) {
+
+    .body-header {
+        font-size: 18px;
+    }
+
+}

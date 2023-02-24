@@ -1,0 +1,74 @@
+<div class="parent">
+  <div class="container-fluid col-lg-10 pt-5">
+    <div class="row justify-content-center">
+
+      <div class="d-xl-flex col-lg-12 px-0" style="box-shadow: 0px 5px 23px #000000;">
+        <div class="login-bg p-xxl-5 p-5">
+          <img src="assets/images/Logo.svg" alt="" class="mb-4 mt-5">
+          <h3 class="login-head mb-0">Sacral.ai</h3>
+          <p class="login-sub mb-0">Generative Ai for Automation</p>
+        </div>
+
+        <div class="card p-xxl-5 p-5 login-card">
+          <div class="card-body p-0">
+
+            <h4 class="card-head mb-2">Login</h4>
+            <p class="card-sub mb-5">Enter your credential to get access</p>
+
+            <form id="loginForm" (ngSubmit)="authenticate()" [formGroup]="loginForm">
+              <div class="mb-3">
+                <label class="form-label label-text">Username</label>
+                <input type="email" formControlName="userName" class="form-control" id="emailAddress" required
+                  placeholder="Enter Your User Name">
+                <div class="position-relative">
+                  <img src="assets/images/User-icon.svg" alt="" class="user">
+                </div>
+                <!-- <i class="icon-help-circled"></i> -->
+                <div
+                  *ngIf="loginForm.controls['userName'].invalid && (loginForm.controls['userName'].dirty|| loginForm.controls['userName'].touched)"
+                  class="col-sm-12 input-fields-wrapper text-red error-message">
+                  User Name required.
+                </div>
+              </div>
+
+              <div class="mb-2">
+                <label class="form-label label-text">Password</label>
+                <input type="password" formControlName="password" class="form-control" id="loginPassword" required
+                  placeholder="Enter Password">
+                <div class="position-relative">
+                  <img src="assets/images/Lock-icon.svg" alt="" class="lock">
+                </div>
+                <div
+                  *ngIf="loginForm.controls['password'].invalid && (loginForm.controls['password'].dirty|| loginForm.controls['password'].touched)"
+                  class="col-sm-12 input-fields-wrapper text-red error-message">
+                  <!-- <i class="icon-help-circled"></i> -->
+                  Password required.
+                </div>
+              </div>
+
+              <a href="#" class="login-link">Forgot your username or password?</a>
+
+              <div class="text-center my-5">
+                <button type="button" class="link-primary btn login-btn p-2 me-3" routerLink="/create-user">
+                  Signup
+                  <img src="assets/images/Side-arrow.svg" alt="">
+                </button>
+
+                <button type="submit" class=" btn login-btn p-2 ms-3">
+                  Login
+                  <img src="assets/images/Side-arrow.svg" alt="">
+                </button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    
+
+  </div>
+</div>
+<app-footer></app-footer>
